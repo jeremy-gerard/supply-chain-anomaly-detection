@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "altana-ml-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Jeremy Gerard <jeremyegerard@gmail.com>"]
+readme = "README.md"
+packages = [{include = "altana_ml_exercise"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+numpy = "1.24.2"
+scikit-learn = "1.2.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+polars = "0.17.14"
+shap = "^0.43.0"
+catboost = "1.2.2"
+rich = "^13.7.0"
+ipykernel = "^6.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
